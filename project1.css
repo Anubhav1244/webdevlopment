@@ -1,0 +1,24 @@
+
+        *{
+            margin: 1px;
+            padding: 0;
+            background-color: antiquewhite;
+        }
+        h1
+        {
+            font-family: 'Tangerine', serif;
+             font-size: 54px;
+        }
+        h2{
+            font-family: 'Tangerine', serif;
+            font-size: 44px;
+
+        }
+        h3{
+            font-family: 'Tangerine', serif;
+            font-size: 44px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        
