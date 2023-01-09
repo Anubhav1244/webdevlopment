@@ -1,7 +1,73 @@
 
-.photo{
-  height: 300px;
-  width: 300px;
- border: 2px solid black;
- border-radius: 10px;
+body{
+  background-color: rgb(238, 238, 243);
+  
+}
+.main{
+  margin-left: 20vh;
+  display: flex;
+  display: inline-block;
+  align-items: center;
+  
+}
+.container{
+  height: 400px;
+  transition: box-shadow .3s;
+  width: 350px;
+  background-color:rgb(255, 251, 255);
+  border-radius: 25px;
+  float: left;
+  margin: 20px;
+  
+}
+.container:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 11px rgba(109, 107, 107, 0.2); 
+}
+ 
+
+img{
+  height: 250px;
+  width: 350px;
+  border-top-left-radius: 2em 1em;
+  border-top-right-radius: 2em 1em;
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  cursor: pointer;
+  margin-top: 7px;
+  
+}
+
+h3{
+  font-size: 3vw;
+  text-align: center;
+  margin-top: 3px;
+}
+
+p{
+  font-size: 1vw;
+  margin-left: 6px;
+}
+#course{
+  color: darkgrey;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  
+}
+span{
+  margin: 3px;
+ color: grey;
+}
+#para
+{
+  background-color: aliceblue;
+  color: blue;
+}
+h3{
+  font-size: 2vw;
+  margin-top: 26px;
 }
